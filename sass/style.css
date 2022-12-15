@@ -1,0 +1,111 @@
+.heading {
+  text-align: center;
+  color: black;
+  background-color: lightskyblue;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center;
+  color: black;
+  font-size: large;
+}
+
+.career {
+  text-align: center;
+  color: black;
+}
+
+.github {
+  text-align: center;
+  color: blue;
+}
+
+.important {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lavenderblush;
+  margin: 20px;
+}
+
+.important .about {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unimportant {
+  background-color: whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px;
+}
+
+.unimportant .h3 {
+  text-align: center;
+}
+
+.unimportant .ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.unimportant .ul {
+  list-style-type: none;
+}
+
+.hobbies_and_interests {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: lavender;
+}
+
+.hobbies_and_interests .h3 {
+  text-align: center;
+}
+
+.hobbies_and_interests .hobbies {
+  float: left;
+  width: 50%;
+  background-color: linen;
+}
+
+.hobbies_and_interests .interests {
+  float: right;
+  width: 50%;
+  background-color: linen;
+}
+
+.hobbies_and_interests .interests .h3 {
+  text-align: left;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 885px) {
+  .hobbies_and_interests
+.hobbies {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .interests {
+    width: 100%;
+    word-wrap: break-word;
+  }
+}
+/*# sourceMappingURL=style.css.map */
